@@ -1,0 +1,145 @@
+.flex2 {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.flex1 {
+    display: flex;
+    text-align: center;
+}
+
+.item:nth-child(2) {
+    align-self: center;
+    text-align: left;
+    flex-grow: 1;
+}
+
+.item:nth-child(3) {
+    width: 300px;
+    height: 30px;
+}
+
+
+.joinDiv {
+    display: grid;
+    justify-content: center;
+}
+
+.movieFrame {
+    margin-left: 20px;
+    margin-right: 20px;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+    margin-bottom: 20px;
+}
+
+.movieContainer {
+    display: flex;
+    padding: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.pad20 {
+    padding-left: 20px;
+}
+
+.imgStyle {
+    flex-shrink: 0;
+    width: 250px;
+    height: auto;
+}
+
+.Logo {
+    display: block;
+    margin: 0px auto;
+}
+
+.SimpleMovieFrame {
+    display: flex;
+    margin: 20px;
+    border: 1px solid black;
+    border-radius: 20px;
+}
+
+.SimpleImage {
+    padding: 20px;
+    margin: 10px;
+}
+
+.SimpleSummary {
+    display: block;
+}
+
+.alignCenter {
+    text-align: center;
+}
+
+.gridContainer {
+    display: grid;
+    grid-template-columns: 1fr 4fr 1fr;
+}
+
+.detailDiv {
+    display: flex;
+    border: 1px solid black;
+    margin-bottom: 15px;
+}
+
+.summaryDiv {
+    margin-left: 2%;
+}
+
+.inputStyle {
+    min-width: 100px;
+    min-height: 25px;
+}
+
+.roomDiv {
+    border: 1px solid black;
+    padding: 10px;
+}
+
+.scheDiv {
+    display: flex;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+}
+
+.marginB15 {
+    margin-bottom: 15px;
+}
+
+.scheItem {
+    border: 1px dashed black;
+    text-align: center;
+    padding: 8px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.tableDiv {
+    width: auto;
+    height: 300px;
+    overflow: auto;
+}
+
+.table {
+    width: 100%;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.th {
+    position: sticky;
+    background-color: chocolate;
+    top: 0px;
+}
+
+.td {
+    border: 1px solid black;
+    padding: 10px;
+}
